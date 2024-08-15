@@ -5,7 +5,7 @@ class passenger: #creating class 'passenger' which is the parent class
     name = " " #variable w/ empty value to be filled later 
     airline = "Delta" #variable w/ empty value to be filled later
     destination = "Bermuda" #variable w/ empty value to be filled later
-    eta = 1:00  #variable with value for time of arrival  
+    eta = 1300  #variable with value for time of arrival  
 
 class customer(passenger): #creating class 'customer', which is a child of the parent class 'passenger'
     seat_num = " " #variable with empty value 
