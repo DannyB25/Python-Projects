@@ -27,7 +27,7 @@ class ParentWindow(Frame): #creating class of ParentWindow and associating w/ Tk
         self.master.configure(bg="#F0F0F0") #creating a background color for our window  
         # This protocol method is a tkinter built-in method to catch if
         #the user clicks the upper corner, "X" on Windows OS
-        self.master.protocol("WM_DELETE_WINDOW", lambda: phonebook_func.ask_quit(self)) #basically closes program when the x in the right hand corner is clicked 
+        self.master.protocol("WM_DELETE_WINDOW", lambda: drill50_phonebook_func.ask_quit(self)) #basically closes program when the x in the right hand corner is clicked 
 
         #load in the GUI widgets from a separate module,
         # keeping your code compartmentalized and clutter free
